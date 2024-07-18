@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/footer.css">
+</head>
+<body class="font-sans">
+    <header class=" bg-black  text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-6  md:mb-0">
+            <img  src="src/image/logo.png" alt="">
+            <span class="ml-3  text-xl"></span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Home</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Tours</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Booking</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Features</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Pages</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Shop</li>
+            <li class="mr-5 text-1.5xl text-white list-none hover:text-teal-500 hover:border-b-2 transition ">Blogs</li>
+          </nav>
+          <button class="inline-flex items-center bg-green-700 text-white text-1xl font-bold  border-0 py-1 px-3 focus:outline-none hover:bg-yellow-500 transition-colors delay-75  rounded text-base mt-4 md:mt-0">Buy Now
+          </button>
+        </div>
+      </header>
+    <main>
+      <section class="text-gray-600 body-font -mt-20">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <video src="src/Video/3120322-uhd_3840_2160_24fps.mp4" loop muted autoplay preload="auto" class="blur1 w-full"></video>
+          <div class="text-center lg:w-2/3 w-full absolute mt-25">
+            <h3 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Find Your special tour today</h3>
+            <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">With Adventure Tours</h1>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-3 px-20 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye my-1 -mx-8" viewBox="0 0 16 16">
+                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                  </svg>
+                </span>
+                View Tours</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 bg-img bg-inherit  body-font pl-10 pr-10">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap mb-20 ">
+            <div class="lg:w-full mb-6 lg:mb-0">
+              <!-- <div class="h-1 w-60 bg-black rounded"></div> -->
+              <h1 class="sm:text-3xl text-2xl font-semibold title-font mb-2 text-black text-center w-full">MOST POPULAR TOURS</h1>
+              <!-- <div class="h-1 w-60  bg-black rounded"></div> -->
+            </div>
+            <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-8 h-96 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn-adventure-tours.themedelight.com/wp-content/uploads/2015/07/hot-air-balloons-531x354.jpg" alt="content">
+                <h2 class=" font-medium title-font mb-4 tracking-widest text-indigo-500 text-lg  title-font">Hot air Ballooning</h2>
+                <p class="leading-relaxed text-base">Cars primis nonummy loream cum cubilia morbi nec risus Rhoncus.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-8 h-96 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn2-adventure-tours.themedelight.com/wp-content/uploads/2015/07/paragliding-in-mountains-531x354.jpg" alt="content">
+                <h2 class="text-lg text-dark font-medium title-font mb-4 text-indigo-500 title-font">Paragliding</h2>
+                <p class="leading-relaxed text-base">Porttitor magna magnis sodales adipiscing eget inceptos platea. Lorem lacus</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-8 h-96 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn2-adventure-tours.themedelight.com/wp-content/uploads/2015/07/rafting-531x354.jpg" alt="content">
+                <h2 class="text-lg font-medium title-font mb-4 text-indigo-500 title-font">Rafting</h2>
+                <p class="leading-relaxed text-base">Divided. Fruit brought they're they're.Cattle him shall brought winged wherein.Whales</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-8 h-96 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn-adventure-tours.themedelight.com/wp-content/uploads/2015/07/surfer-531x354.jpg" alt="content">
+                <h2 class="text-lg font-medium title-font mb-4 text-indigo-500 title-font">Surfing</h2>
+                <p class="leading-relaxed text-base">Divided. Fruit brought they're they're. Cattle him shall brought winged</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="text-gray-600 body-font overflow-hidden pl-10 pr-10">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">DEALS AND DISCOUNTS</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 hover:border-indigo-500 border-gray-300 flex flex-col relative overflow-hidden">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn2-adventure-tours.themedelight.com/wp-content/uploads/2015/07/costa-rica-531x354.jpg" alt="content">
+                <p class="flex items-center text-gray-600 mb-2">
+                  <h2 class=" font-medium title-font mb-4 tracking-widest text-indigo-500 text-xl  title-font">Discover Costa Rica</h2>
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  Platea rutrum. Enim quam montes Porttitor nam,
+                </p>
+                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Know More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 hover:border-indigo-500 border-gray-300 flex flex-col relative overflow-hidden">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn-adventure-tours.themedelight.com/wp-content/uploads/2015/07/tropical-rainforest-parrot-531x354.jpg" alt="content">
+                <p class="flex items-center text-gray-600 mb-2">
+                  <h2 class=" font-medium title-font mb-4 tracking-widest text-indigo-500 text-xl  title-font">Amazon Cruise</h2>
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  Mattis interdum nunc massa. Velit. Nonummy penatibus
+                </p>
+                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Know More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:border-indigo-500 flex flex-col relative overflow-hidden">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn2-adventure-tours.themedelight.com/wp-content/uploads/2015/07/lake-tahoe-531x354.jpg" alt="content">
+            
+                <p class="flex items-center text-gray-600 mb-2">
+                  <h2 class=" font-medium title-font mb-4 tracking-widest text-indigo-500 text-xl  title-font">Lake Tahoe Adventure</h2>
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  Magna. Lectus. Ligula habitasse ut morbi velit
+                </p>
+                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Know More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 hover:border-indigo-500 border-gray-300 flex flex-col relative overflow-hidden">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="http://cdn-adventure-tours.themedelight.com/wp-content/uploads/2015/07/lake-moraine-531x354.jpg" alt="content">
+                <p class="flex items-center text-gray-600 mb-2">
+                  <h2 class=" font-medium title-font mb-4 tracking-widest text-indigo-500 text-xl  title-font">Canadian Rockies</h2>
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  Semper penatibus bibendum lorem magnis aenean rutrum
+                </p>
+                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Know More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    
+    </main>
+    <footer class="text-white body-font">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                  <img src="./src/image/logo.png" alt="">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+            </a>
+            <p class="mt-2 text-sm text-gray-500"></p>
+          </div>
+          <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Destinations
+              </h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-red-800">Europe</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">North America  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Pacific
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">South America
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Asia</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Africa
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Middle East</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Carribbean</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Australia
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">More</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Cities</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-red-800">Berlin</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">London  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Barcelona
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">New York
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Tokyo</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Sao Paolo
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Moscow
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Belgrade</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">Zagreb
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800">More</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">Interests</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-red-800"> Adventure</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Family Holidays  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Festivals
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Wildlife
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Cruises</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Backpacking
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Faraway Travels</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Honeymoon and Romancing</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Budget Travels
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> More</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-2xl mb-3">CATEGORIES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-red-800"> About Travelicious</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Our Guides</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Tour prices
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> FAQs
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Contact us</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Location
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Testimonials</a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-red-800"> Clients</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Yash Chauhan
+              <a href="https://twitter.com/knyttneve " rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@yash chauhan</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

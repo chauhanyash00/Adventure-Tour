@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+@layer components {
+    .nav-tabs {
+      @apply mr-60 text-1.5xl text-white hover:text-teal-300 ;
+    }
+  }
+
+  .bg-img{
+    background-image: url("https://visitmaldives.s3.amazonaws.com/6eY3pq3l/c/wbrbzyzf-shareable_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-img2{
+    background-image: url("http://cdn-adventure-tours.themedelight.com/wp-content/uploads/2015/07/moraine-lake-with-boat-531x354.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .bg-img3{
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .blur1{
+    filter: blur(3px);
+  }
+
+  img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    transition-duration: 1s;
+  }
+
+  footer{
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+  }
+  
